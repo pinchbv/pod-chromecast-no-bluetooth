@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.source           = { :http => 'https://github.com/pinchbv/pod-chromecast-no-bluetooth/releases/download/4.8.1/GoogleCastSDK-ios-no-bluetooth.xcframework.zip' }
   s.vendored_frameworks = 'GoogleCastSDK-ios-no-bluetooth.xcframework'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 end
