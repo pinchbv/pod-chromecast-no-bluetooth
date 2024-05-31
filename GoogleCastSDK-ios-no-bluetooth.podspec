@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/pinchbv/pod-chromecast-no-bluetooth'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wesley Hilhorst' => 'wesley.hilhorst@justpinch.com' }
-  s.source           = { :http => 'https://github.com/pinchbv/pod-chromecast-no-bluetooth/releases/download/4.8.1/GoogleCastSDK-ios-no-bluetooth.xcframework.zip' }
-  s.vendored_frameworks = 'GoogleCastSDK-ios-no-bluetooth.xcframework'
+  s.source           = { :http => 'https://github.com/pinchbv/pod-chromecast-no-bluetooth/releases/download/4.8.1/GoogleCast.xcframework.zip' }
+  s.vendored_frameworks = 'GoogleCast.xcframework'
 
   s.ios.deployment_target = '12.0'
 end
