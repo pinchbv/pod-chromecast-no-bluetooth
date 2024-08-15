@@ -22,7 +22,7 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "GoogleCastSDK-ios-no-bluetooth",
-			url: "https://github.com/pinchbv/pod-chromecast-no-bluetooth/releases/download/\(PackageMetadata.version)/GoogleCastSDK.xcframework.zip",
+			url: "https://github.com/pinchbv/pod-chromecast-no-bluetooth/releases/download/\(PackageMetadata.version)/GoogleCast.xcframework.zip",
 			checksum: PackageMetadata.checksum
 		)
 	]
