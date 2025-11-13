@@ -4,8 +4,8 @@
 import PackageDescription
 
 struct PackageMetadata {
-	static let version = "4.7.1"
-	static let checksum = "fd43df3f75f5f2ebc92a6c6c11cb9452213249ba310d81bc5c70d26dad2c4be5"
+	static let version = "4.8.4"
+	static let checksum = "870a862c3a5a667977f24499cf0d3bd05c8dfcee141f887e7bf8f2fee6bd2c0a"
 }
 
 let package = Package(
@@ -22,7 +22,7 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "GoogleCastSDK-ios-no-bluetooth",
-			url: "https://github.com/pinchbv/pod-chromecast-no-bluetooth/releases/download/\(PackageMetadata.version)/GoogleCastSDK.xcframework.zip",
+			url: "https://github.com/pinchbv/pod-chromecast-no-bluetooth/releases/download/\(PackageMetadata.version)/GoogleCast.xcframework.zip",
 			checksum: PackageMetadata.checksum
 		)
 	]
